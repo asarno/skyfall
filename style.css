@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.meteor {
+  display: block;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  background-image: url('http://3.bp.blogspot.com/-I2PDgWboszU/TaM4vONlqkI/AAAAAAAAACs/hP13U7unm6Q/s1600/bouncing-meteor.png');
+  background-size: cover;
+}
+
+#box {
+  display: block;
+  border: none;
+  margin-top: 400px;
+  margin-left: 40px;
+  background-color: #d3d3d3;
+  border-radius: 10%;
+  text-align: center;
+  width: 150px;
+  height: 110px;
+  position: relative;
+  z-index:10;
+}
+
+p {
+  
+}
